@@ -1,0 +1,7 @@
+GET http://localhost:8080/new
+Accept: application/json
+
+<> 2022-10-30T020320.200.txt
+
+###
+

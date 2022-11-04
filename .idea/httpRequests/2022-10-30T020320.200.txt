@@ -1,0 +1,1 @@
+{"ffb5aedb-26c9-4ce3-bfaf-49322283cef4":{"playersIds":["12345","54321"],"word":"perspective","definition":"personal view of a topic or thing","missingLetterIndex":2,"gameId":"ffb5aedb-26c9-4ce3-bfaf-49322283cef4","roundTime":120,"playIndex":0,"playerTurnId":"12345","plays":null,"leaderId":""}}
