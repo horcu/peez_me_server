@@ -1,4 +1,4 @@
-module hello-run
+module peezMe
 
 go 1.19
 

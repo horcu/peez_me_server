@@ -1,7 +1,7 @@
 # Use base golang image from Docker Hub
 FROM golang:1.19 AS build
 
-WORKDIR /hello-world
+WORKDIR /peezme
 
 # Install dependencies in go.mod and go.sum
 COPY go.mod go.sum ./
@@ -25,9 +25,11 @@ FROM gcr.io/distroless/base
 ENV GOTRACEBACK=single
 
 # Copy template & assets
-WORKDIR /hello-world
+WORKDIR /peezme
 COPY --from=build /app ./app
 COPY index.html index.html
 COPY assets assets/
+
+#this shouuld only be done once maybe
 
 ENTRYPOINT ["./app"]
